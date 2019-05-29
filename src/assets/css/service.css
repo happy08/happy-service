@@ -1,0 +1,32 @@
+@media (min-width:767px) {
+  .logo{
+    display: flex; 
+    width: 100%;
+    padding-left: 100px;
+  }
+  .logo a{
+    /* display: inline-block; */
+  }
+  .logo-text {
+    font-size: 30px;
+    padding-top: 40px;
+  }
+  .menu-bar{
+    left: 15px;
+    top: 50%;
+    margin-top:-40px;
+  }
+  .logo .menu-down{
+    display: block;
+    top: 133px;
+    left: 15px;
+    padding-top: 43px;
+  }
+  .logo .menu-bar:hover + .menu-down{
+    top: 123px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  nav{display: none;}
+}
